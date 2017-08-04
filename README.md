@@ -4,7 +4,7 @@ A polling web app created as a learning experience from the tutorial at https://
 
 See it while it's developed at: << heroku link here >>
 
-Current progress: Part 2
+Current progress: Part 5 - Automated Testing
 
 # Django
 
