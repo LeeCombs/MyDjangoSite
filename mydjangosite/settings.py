@@ -31,12 +31,12 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.admin',         # The admin site
+    'django.contrib.auth',          # An authentication system
+    'django.contrib.contenttypes',  # Content types framework
+    'django.contrib.sessions',      # Session framework
+    'django.contrib.messages',      # Messaging framework
+    'django.contrib.staticfiles',   # Static file management framework
 ]
 
 MIDDLEWARE = [
@@ -105,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'PDT' # UTC-7?
 
 USE_I18N = True
 
