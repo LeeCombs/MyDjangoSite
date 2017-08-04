@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',       # Our own polls app
     'django.contrib.admin',         # The admin site
     'django.contrib.auth',          # An authentication system
     'django.contrib.contenttypes',  # Content types framework
@@ -105,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'PDT' # UTC-7?
+TIME_ZONE = 'US/Pacific'
 
 USE_I18N = True
 
